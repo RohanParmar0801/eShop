@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     # Project APP's
     'blog',
-    'shop',
+    'shop.apps.ShopConfig',
 ]
 
 MIDDLEWARE = [
