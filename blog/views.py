@@ -6,20 +6,3 @@ from django.http import HttpResponse
 def index(request):
     return render(request,'blog/index.html')
 
-def about(request):
-    pass
-
-def contact(request):
-    pass
-
-def tracker(request):
-    pass
-
-def search(request):
-    pass
-
-def product_view(request):
-    pass
-
-def checkout(request):
-    pass
